@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Escola.API</name>
+    </assembly>
+    <members>
+        <member name="M:Escola.API.Controllers.AlunosController.Post(Escola.API.Domain.Models.Request.AlunoRequest)">
+            <summary>
+            Cadastrar alunos
+            </summary>
+            <param name="alunoRequest">JSON</param>
+            <returns>JSON</returns>
+        </member>
+        <member name="M:Escola.API.Controllers.ProfessoresController.Post(Escola.API.Domain.Models.Request.ProfessorRequest)">
+            <summary>
+            Cadastrar Professor
+            </summary>
+            <param name="professorRequest">JSON</param>
+            <returns>JSON</returns>
+        </member>
+        <member name="M:Escola.API.Controllers.UnidadesController.Post(Escola.API.Domain.Models.Request.UnidadeRequest)">
+            <summary>
+            Cadastro Unidade
+            </summary>
+            <param name="unidadeRequest">JSON</param>
+            <returns>JSON</returns>
+        </member>
+    </members>
+</doc>
